@@ -1,10 +1,16 @@
-# python skeleton project
+# simplecmd
 
-This is a generic Python skeleton project. It doesn't do anything but
-provide a base to build off of.
+Simple wrapper around subprocess. A single function is provided:
 
-## Usage
+```python
+run(*args, **kwargs)
+```
 
-Rename pkgxyz/ to your package's name. Find and replace instances of
-"pkgxyz" with your package name. Find and replace instances of "TODO" in
-setup.py with useful metadata.
+Pass a command name and its arguments as `args`.
+
+Optional `kwargs`:
+
+`cwd`: current working directory (string)
+`capture`: capture stdout and return it (bool)
+`capture_stderr`: redirect stderr to stdout and return it (bool)
+`env`: environment variables (dict)

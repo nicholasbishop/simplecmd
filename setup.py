@@ -1,18 +1,17 @@
 #!/usr/bin/env python
-
 """Build/distribute via setuptools."""
 
 import setuptools
 
 setuptools.setup(
-    name='pkgxyz',
-    version='0.0.1',
-    packages=['pkgxyz'],
+    name='simplecmd',
+    version='0.1.0',
+    packages=['simplecmd'],
 
     # metadata for upload to PyPI
-    author='TODO',
-    author_email='TODO',
-    description='TODO',
+    author='Nicholas Bishop',
+    author_email='nicholasbishop@gmail.com',
+    description='Simple wrapper around subprocess',
     license='Apache-2.0',
-    url='TODO',
+    url='https://github.com/nicholasbishop/simplecmd',
 )
