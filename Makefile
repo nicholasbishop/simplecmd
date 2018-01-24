@@ -18,4 +18,4 @@ test:
 	pipenv run python -m unittest discover -bv
 
 
-.PHONY: all lint format test
+.PHONY: all lint format publish test
