@@ -9,6 +9,11 @@ format:
 	pipenv run yapf -ir setup.py simplecmd tests
 
 
+publish:
+	pipenv run ./setup.py sdist && \
+	pipenv run twine upload dist/*
+
+
 test:
 	pipenv run python -m unittest discover -bv
 

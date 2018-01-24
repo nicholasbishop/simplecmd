@@ -5,7 +5,7 @@ import setuptools
 
 setuptools.setup(
     name='simplecmd',
-    version='0.1.0',
+    version='1.0.0',
     packages=['simplecmd'],
 
     # metadata for upload to PyPI
