@@ -9,7 +9,7 @@ lint:
 
 
 format:
-	pipenv run yapf -i ${PKG_NAME} tests
+	pipenv run yapf -ir ${PKG_NAME} tests
 
 
 .PHONY: all lint format test
