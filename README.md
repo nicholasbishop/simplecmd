@@ -3,10 +3,10 @@
 Simple wrapper around subprocess. A single function is provided:
 
 ```python
-run(*args, **kwargs)
+run(*cmd, **kwargs)
 ```
 
-Pass a command name and its arguments as `args`.
+Pass a command name and its arguments as `cmd`.
 
 Optional `kwargs`:
 
