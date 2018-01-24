@@ -6,4 +6,5 @@ provide a base to build off of.
 ## Usage
 
 Rename pkgxyz/ to your package's name. Find and replace instances of
-"pkgxyz" to your package name.
+"pkgxyz" with your package name. Find and replace instances of "TODO" in
+setup.py with useful metadata.
