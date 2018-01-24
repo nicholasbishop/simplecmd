@@ -10,7 +10,7 @@ Pass a command name and its arguments as `args`.
 
 Optional `kwargs`:
 
-`cwd`: current working directory (string)
-`capture`: capture stdout and return it (bool)
-`capture_stderr`: redirect stderr to stdout and return it (bool)
-`env`: environment variables (dict)
+- `cwd`: current working directory (string)
+- `capture`: capture stdout and return it (bool)
+- `capture_stderr`: redirect stderr to stdout and return it (bool)
+- `env`: environment variables (dict)
